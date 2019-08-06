@@ -1,0 +1,7 @@
+<suite name="TestngSuite" verbose="1" >
+  <test name="Testng" >
+    <classes>
+       <class name="TestPackage.Facebook" />
+    </classes>
+  </test>
+  </suite>

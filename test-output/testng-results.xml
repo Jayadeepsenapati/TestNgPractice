@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="96815" started-at="2019-08-06T10:13:57Z" finished-at="2019-08-06T10:15:34Z">
+  <suite name="Default suite" duration-ms="38959" started-at="2019-08-06T13:55:12Z" finished-at="2019-08-06T13:55:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="96815" started-at="2019-08-06T10:13:57Z" finished-at="2019-08-06T10:15:34Z">
-      <class name="TestPackage.FacebookLogin">
-        <test-method status="PASS" signature="login()[pri:0, instance:TestPackage.FacebookLogin@1d4e2ba]" name="login" duration-ms="96784" started-at="2019-08-06T15:43:57Z" finished-at="2019-08-06T15:45:34Z">
+    <test name="Default test" duration-ms="38959" started-at="2019-08-06T13:55:12Z" finished-at="2019-08-06T13:55:51Z">
+      <class name="TestPackage.Facebook">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TestPackage.Facebook@e369b7]" name="openBrowser" is-config="true" duration-ms="3905" started-at="2019-08-06T19:25:12Z" finished-at="2019-08-06T19:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:TestPackage.Facebook@e369b7]" name="login" duration-ms="32896" started-at="2019-08-06T19:25:16Z" finished-at="2019-08-06T19:25:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-      </class> <!-- TestPackage.FacebookLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestPackage.Facebook@e369b7]" name="closeBrowser" is-config="true" duration-ms="2132" started-at="2019-08-06T19:25:49Z" finished-at="2019-08-06T19:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPackage.Facebook -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
